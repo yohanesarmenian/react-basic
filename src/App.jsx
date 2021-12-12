@@ -3,6 +3,7 @@ import './App.css';
 import { Hello, HelloWithName }from './components/Hello';
 import HelloAgain from './components/HelloAgain';
 import IniComponenClass from './components/IniComponentClass';
+import IniComponentfunction from './components/IniComponentFuction';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <HelloWithName name="jon" job="programer"/>
         <HelloAgain/>
         <IniComponenClass/>
+        <IniComponentfunction/>
         <a
           className="App-link"
           href="https://reactjs.org"
