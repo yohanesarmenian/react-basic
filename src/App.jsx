@@ -4,6 +4,7 @@ import { Hello, HelloWithName }from './components/Hello';
 import HelloAgain from './components/HelloAgain';
 import IniComponenClass from './components/IniComponentClass';
 import IniComponentfunction from './components/IniComponentFuction';
+import ButtonCustom from './components/button';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
         <Hello/>
         <HelloWithName name="jon" job="programer"/>
         <HelloAgain/>
-        <IniComponenClass/>
-        <IniComponentfunction/>
+        {/* <IniComponenClass/>
+        <IniComponentfunction/> */}
+        <ButtonCustom/>
         <a
           className="App-link"
           href="https://reactjs.org"
