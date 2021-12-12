@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Hello from './components/Hello';
+import { Hello, HelloWithName }from './components/Hello';
 import HelloAgain from './components/HelloAgain';
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <Hello/>
+        <HelloWithName name="jon" job="programer"/>
         <HelloAgain/>
         <a
           className="App-link"
