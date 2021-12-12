@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Hello, HelloWithName }from './components/Hello';
 import HelloAgain from './components/HelloAgain';
+import IniComponenClass from './components/IniComponentClass';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Hello/>
         <HelloWithName name="jon" job="programer"/>
         <HelloAgain/>
+        <IniComponenClass/>
         <a
           className="App-link"
           href="https://reactjs.org"
